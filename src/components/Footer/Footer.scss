@@ -1,5 +1,8 @@
 .foot-container{
     display: flex;
+    @media only screen and (max-width:380px){
+        flex-direction: column;
+    }
 }
 
 .foot-left {
@@ -11,10 +14,16 @@
 .foot-right{
     flex: 1;
     padding: 20px;
+    @media only screen and (max-width:380px){
+        background-color: rgb(250, 245, 245);
+    }
 }
 .foot-center{
     flex: 1;
     padding: 20px; 
+    @media only screen and (max-width:380px){
+        display: none;
+    }
 }
 .foot-center-title{
     margin-bottom: 30px;

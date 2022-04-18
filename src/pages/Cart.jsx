@@ -33,6 +33,7 @@ function Cart() {
                                 
                                 <span className='cd-size'>size: 37.5</span>
                             </div>
+                        </div>
                             <div className="cart-price-details">
                                     <div className="cart-amount-container">
                                     <i class="fa-solid fa-plus"></i>
@@ -41,7 +42,6 @@ function Cart() {
                                     </div>
                                     <div className='cart-prod-price '>$500</div>
                             </div>
-                        </div>
                     </div>
                     <hr></hr>
                 </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./CategoryItem.css"
+import "./CategoryItem.scss"
 function CategoryItem({item}) {
   return (
     <div className='cat-item-container'>

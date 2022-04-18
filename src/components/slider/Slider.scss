@@ -4,6 +4,9 @@
     display: flex;
     position: relative;
     overflow: hidden;
+    @media only screen and (max-width:380px){
+        display: none;
+    }
 }
 .slider-arrow{
     width: 50px;

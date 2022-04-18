@@ -2,7 +2,7 @@
 .product-filter-container{
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .pl-title{
@@ -10,13 +10,26 @@
 }
 .pl-filter{
     margin: 20px;
+    @media only screen and (max-width:380px){
+        margin: 0 20px;
+        display: flex;
+        flex-direction: column;
+    }
 }
 .filter-text{
     font-size: 20px;
     font-weight: 600;
     margin-right: 20px;
+    @media only screen and (max-width:380px){
+        margin-right: 0;
+    }
 }
 .filter-select{
     padding: 10px;
     margin-right: 20px;
+    @media only screen and (max-width:380px){
+    margin: 10px 2px;
+      display: flex;
+      width: 90%;
+    }
 }

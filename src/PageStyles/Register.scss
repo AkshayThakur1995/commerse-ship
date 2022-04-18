@@ -13,6 +13,9 @@ justify-content: center;
     padding: 20px;
     width: 40%;
     background-color: #fff;
+    @media only screen and (max-width:380px){
+        width: 75%;
+}
 
 }
 .reg-title{
@@ -29,6 +32,9 @@ flex-wrap: wrap;
     margin: 20px 10px 0 0;
     padding: 10px;
     border: 1px solid teal;
+    @media only screen and (max-width:380px){
+        width: 90%;
+    }
 }
 
 

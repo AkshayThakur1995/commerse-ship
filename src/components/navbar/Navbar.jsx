@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsFillCartCheckFill} from 'react-icons/bs';  
-import "./Navbar.css"
+import "./Navbar.scss"
 function Navbar() {
   return (
     <div className='container'>
@@ -8,7 +8,7 @@ function Navbar() {
       <div className="left">
         <span className='language'>En</span>
         <div className="search-container">
-          <input />
+          <input placeholder='search' />
           <i class="fa-solid fa-magnifying-glass"></i>
         </div>
       </div>

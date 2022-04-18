@@ -12,7 +12,7 @@ function ProductPage() {
         <Announcement />
         <div className='prod-page-wrapper'>
         <div className='prod-page-img-container'>
-            <img prod-page-img src='https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png'></img>
+            <img className="prod-page-img" src='https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png'></img>
         </div>
         <div className='prod-page-info'>
             <h1 className='prod-page-title'>Jacket</h1>

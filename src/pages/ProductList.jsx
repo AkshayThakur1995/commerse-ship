@@ -14,8 +14,8 @@ function ProductList() {
       <h1 className='pl-title'>Dresses</h1>
       <div className="product-filter-container">
         <div className="pl-filter">
-          <span className='filter-text'>Filter Products
-          <select className='filter-select'>
+          <span className='filter-text'> 
+          Filter Products  <select className='filter-select'>
             <option disabled selected>Color</option>
             <option>White</option>
             <option>Black</option>

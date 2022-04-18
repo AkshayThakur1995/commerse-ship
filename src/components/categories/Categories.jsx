@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Categories.css"
+import "./Categories.scss"
 import {categories} from "../../data"
 import CategoryItem from './CategoryItem'
 function Categories() {

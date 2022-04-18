@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { sliderItems } from '../../data'
-import "./Slider.css"
+import "./Slider.scss"
 
 function Slider() {
     const[slideIndex, setSlideIndex] = useState(0)
