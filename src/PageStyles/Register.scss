@@ -1,0 +1,42 @@
+.reg-container{
+width: 100vw;
+height: 100vh;
+background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),   url("https://images.unsplash.com/photo-1648737119359-510d4f551382?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80") center;
+background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.reg-wrapper{
+    padding: 20px;
+    width: 40%;
+    background-color: #fff;
+
+}
+.reg-title{
+    font-size: 24px;
+    font-weight: 300;
+}
+.reg-form{
+display: flex;
+flex-wrap: wrap;
+}
+.reg-form input {
+    flex: 1;
+    min-width: 40%;
+    margin: 20px 10px 0 0;
+    padding: 10px;
+    border: 1px solid teal;
+}
+
+
+.reg-button{
+width: 40%;
+border: none;
+padding: 15px 20px;
+background-color: teal;
+color: #fff;
+cursor: pointer;
+}

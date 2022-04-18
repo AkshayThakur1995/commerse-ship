@@ -71,3 +71,13 @@ font-weight: 700;
     justify-content: center;
     margin: 0 5px;
 }
+.pp-addtocart{
+    padding: 15px;
+    border: 2px solid teal;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+.pp-addtocart:hover{
+    background-color: #f8f4f4;
+}

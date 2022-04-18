@@ -48,7 +48,7 @@ function ProductPage() {
                     <i class="fa-solid fa-plus"></i>
                     
                 </div>
-                <button>add to cart</button>
+                <button className='pp-addtocart'>add to cart</button>
             </div>
         </div>  
         </div>
